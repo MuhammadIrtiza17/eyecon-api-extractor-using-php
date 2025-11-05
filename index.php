@@ -100,7 +100,7 @@ function processSingleNumber($country_code, $phone, $conn) {
         CURLOPT_CUSTOMREQUEST => "GET",
         CURLOPT_HTTPHEADER => [
             "x-rapidapi-host: eyecon.p.rapidapi.com",
-            "x-rapidapi-key: af06ef6db4msh8c22240be2a2f8cp1c7745jsne9e42b07dc54"
+            "x-rapidapi-key: api-key-here"
         ],
     ]);
 
@@ -901,4 +901,5 @@ function processSingleNumber($country_code, $phone, $conn) {
 </script>
 
 </body>
+
 </html>
